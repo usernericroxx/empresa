@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #2C556F;
+	font-family: calibri;
+	font-size: 16px;
+	
+}
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.bloque h2{
+	margin-bottom: 40px;
+}
+
+.bloque h1{
+	font-family: BigNoodleTitling;
+	text-align: center;
+	text-shadow: 4px 4px 4px #424242;
+	margin: 0;
+	font-size: 180px;
+	line-height: 300px;
+	color: #fff
+	
+}
+img{
+	width:180px;
+}
+.bloque p{
+	margin-bottom: 40px;
+	font-size: 18px;
+	
+}
+@font-face{
+	font-family: BigNoodleTitling;
+	src: url(big_noodle_titling.ttf);	
+}
+
+.bloque.parallax{
+	height: 250px;
+	background-position: 10% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.parallax.image-1{
+	background-image: url("nat.jpg");
+}
+
+.main,footer, nav {
+	background: #F0F03E;
+	margin: 20px auto;
+	max-width:1000px;
+	width:90%
+}
+nav{
+	
+	background:#F0F03E;
+	overflow:hidden;
+	
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+}
+
+nav ul li a {
+	padding: 5px 35px;
+	display: block;
+	color:black;
+	text-decoration:none;
+	text-align: justify;
+	font-size:20px;
+	float: center;
+	
+}
+nav ul li a:hover {
+	background:#75ACEC;
+}
+.main .articles{
+	width:100%;
+	float:left;
+	background: #fff;
+	margin-right:1.5%;
+}
+.main .articles article{
+	padding:20px;
+	background:#fff;
+	margin-bottom:20px;	
+	text-align:justify;
+	font-size:20px;
+}
+
+aside{
+	width:30%;
+	background:#ccc;
+	float:left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+footer{
+background:#000;
+color:#fff;
+clear: both;
+padding: 10px 0px;
+text-align: center;
+}
+
+
+
+
+
